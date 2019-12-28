@@ -11,7 +11,7 @@
 
 
 ![](https://github.com/bhrt-sharma/Emotion-Detection/blob/master/emotions/Happy.PNG)
-![](https://github.com/omar178/Emotion-recognition/blob/master/emotions/angry.PNG)
+![](https://github.com/bhrt-sharma/Emotion-Detection/blob/master/emotions/neutral.PNG)
 
 
 
