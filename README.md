@@ -1,23 +1,22 @@
 # Project Name : Emotion-recognition
 # Table of Content :
-1.[Description](#p1)
+1.[Description](#Description)
 
-2.[Installations](#p2)
+2.[Installations](#Installations)
 
-3.[Usage](#p3)
+3.[Usage](#Usage)
 
-4.[Dataset](#p4)
-
-
-
-![](https://github.com/bhrt-sharma/Emotion-Detection/blob/master/emotions/Happy.PNG)
-![](https://github.com/bhrt-sharma/Emotion-Detection/blob/master/emotions/neutral.PNG)
+4.[Dataset](#Dataset)
 
 
 
+![Happy](emotions/Happy.PNG)
+![Neutral](emotions/neutral.PNG)
 
-<a id="p1"></a> 
-# Description:
+
+
+
+# Description
 
 Our Human face is having a mixed emotions so we are to demonstrate the probabilities of these emotions that we have.
 
@@ -25,8 +24,7 @@ Our Human face is having a mixed emotions so we are to demonstrate the probabili
 
 Emotion recognition is a technique used in software that allows a program to "read" the emotions on a human face using advanced image processing. Companies have been experimenting with combining sophisticated algorithms with image processing techniques that have emerged in the past ten years to understand more about what an image or a video of a person's face tells us about how he/she is feeling and not just that but also showing the probabilities of mixed emotions a face could has.
 
-<a id="p2"></a> 
-# Installations:
+# Installations
 -keras
 
 -imutils
@@ -34,25 +32,30 @@ Emotion recognition is a technique used in software that allows a program to "re
 -cv2
 
 -numpy
+ 
+ Install using requirements.txt
+ 
+ `pip install -r requirements.txt`
+ 
+ 
+# Usage
 
-<a id="p3"></a> 
-# Usage:
-
-The program will creat a window to display the scene capture by webcamera and a window representing the probabilities of detected emotions.
+The program will create a window to display the scene capture by webcamera and a window representing the probabilities of detected emotions.
 
 > Demo
 
-python real_time_video.py
+`python real_time_video.py`
 
-You can just use this with the provided pretrained model i have included in the path written in the code file, i have choosen this specificaly since it scores the best accuracy, feel free to choose any but in this case you have to run the later file train_emotion_classifier
+You can just use this with the provided pretrained model i have included in the path written in the code file, i have choosen this specificaly since it scores the best accuracy, feel free to choose any but in this case you have to run the later file train_emotion_classifier.
+
 > If you just want to run this demo, the following content can be skipped
-- Train
 
-- python train_emotion_classifier.py
+Train
+
+`python train_emotion_classifier.py`
 
 
-<a id="p4"></a> 
-# Dataset:
+# Dataset
 
 I have used [this](https://www.kaggle.com/c/3364/download-all) dataset
 
@@ -71,4 +74,4 @@ Draw emotions faces next to the detected face.
 
 If any issues and suggestions to me, you can create an [issue](https://github.com/omar178/Emotion-recognition/issues).
 
-If you like this work please help me by giving me some stars.
+>If you like this work please help me by giving me *some stars*.
